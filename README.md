@@ -20,14 +20,14 @@ The software framework of this model consists of Python 2.7.17. Python packages 
 
 The following networks are required as input data: 
 * Landscape-based networks (with random, clustered, and linear habitat allocation)
-* Standard networks (random, regular, small-world, and scale-free networks) 
+* Standard networks (random, regular, small-world, and scale-free networks)  
+
 Landscape-based networks can be found at https://github.com/luclucky/HabitatConnectivity_Colonization. The function loadGraph in our Python code will load the exact networks used by our model.
 The standard networks are accessible in the folder networks. 
 
 
 ### C. Python Code
 
-For database access from Python, the connection parameters have to be specified in the Python script. 
 The Python script RobustnessSimulation.py contains the code to load the networks, run the simulations, and save the results. In order to execute the code, the directories may have to be updated and the connection parameters to access the database for the landscape-based networks have to be specified (see lines 11 and 18 of the Python script).
 
 For suggestions or requests for further information please contact the corresponding author Henriette Heer:  
